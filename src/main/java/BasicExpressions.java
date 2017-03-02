@@ -19,6 +19,8 @@ public class BasicExpressions {
     public static void outputBoolean() {
 
         // todo: print out a boolean value
+        boolean alive = true;
+        System.out.println(alive);
 
     }
 
@@ -30,6 +32,8 @@ public class BasicExpressions {
     public static void outputTrue() {
 
         // todo: print out a boolean value for true
+        boolean hungry = true;
+        System.out.println(hungry);
 
     }
 
@@ -39,6 +43,8 @@ public class BasicExpressions {
     public static void outputFalse() {
 
         // todo: print out a boolean value for false
+        boolean dead = false;
+        System.out.println(dead);
 
     }
 
@@ -50,6 +56,8 @@ public class BasicExpressions {
     public static void outputPositiveInteger() {
 
         // todo: print out a positive integer
+        int posInt = 43;
+        System.out.println(posInt);
 
     }
 
@@ -59,6 +67,8 @@ public class BasicExpressions {
     public static void outputNegativeInteger() {
 
         // todo: print out a negative integer
+        int negInt = -23;
+        System.out.println(negInt);
 
     }
 
@@ -68,6 +78,8 @@ public class BasicExpressions {
     public static void outputPositiveDouble() {
 
         // todo: print out a positive double
+        double positiveDub = 23.32;
+        System.out.println(positiveDub);
 
     }
 
@@ -77,6 +89,8 @@ public class BasicExpressions {
     public static void outputNegativeDouble() {
 
         // todo: print out a negative double
+        double negDub = -23.543;
+        System.out.println(negDub);
 
     }
 
@@ -86,6 +100,9 @@ public class BasicExpressions {
     public static void outputHelloWorld() {
 
         // todo: print out "Hello World!"
+        String hello = "Hello ";
+        String world ="World!";
+        System.out.println(hello+world);
 
     }
 
@@ -94,8 +111,10 @@ public class BasicExpressions {
      * print the result.
      */
     public static void outputConcatenationOfTwoStrings() {
-
+        String s1 = "what";
+        String s2= " now ma!";
         // todo: concatenate and print two strings
+        System.out.println("98ddf" + "kjha");
 
     }
 
@@ -106,6 +125,9 @@ public class BasicExpressions {
     public static void outputConcatenationOfStringAndInteger() {
 
         // todo: concatenate and print a String and an integer
+        int x = 2;
+        String c = "lkjlj";
+        System.out.println("sdfsdf" + 4);
 
     }
 
@@ -115,6 +137,7 @@ public class BasicExpressions {
     public static void outputSumOfTwoIntegers() {
 
         // todo: print the sum of two integers
+        System.out.println(4+4);
 
     }
 
@@ -124,6 +147,9 @@ public class BasicExpressions {
     public static void outputSumOfTwoDoubles() {
 
         // todo: print the sum of two doubles
+        double x = 2.35;
+        double a = 4.23;
+        System.out.println(4.64 + 23.54);
 
     }
 
@@ -133,6 +159,7 @@ public class BasicExpressions {
     public static void outputSumOfADoubleAndAnInteger() {
 
         // todo: print sum of double and integer
+        System.out.println(34.04+34);
 
     }
 
@@ -142,6 +169,7 @@ public class BasicExpressions {
     public static void outputSumOfThreeIntegers() {
 
         // todo: print sum of three integers
+        System.out.println(3+3+3);
 
     }
 
